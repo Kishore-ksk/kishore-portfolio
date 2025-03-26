@@ -1,6 +1,4 @@
 *
 !private/
-!public/albums
-!public/songs
-!public/images
+!public/
 !.gitignore
