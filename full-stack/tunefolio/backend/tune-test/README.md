@@ -1,3 +1,28 @@
+
+---
+
+#### 📌 **6. Backend Project Folder (`Tunefolio/Backend/tune-test/README.md`)**
+```md
+# Tunefolio Backend - Laravel  
+
+This is the Laravel backend for the Tunefolio project.  
+
+## ⚙️ Setup  
+1. Install dependencies:  
+   ```sh
+   composer install
+
+## Set up environment variables:
+cp .env.example .env
+
+## Generate app key:
+php artisan key:generate
+
+## Run the server:
+php artisan serve
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
