@@ -1,13 +1,9 @@
 @media screen and (max-width: 360px) {
-  *pro-1{
-display: flex;
-  }
+  
 }
 
 @media screen and (max-width: 414px) {
-  *pro-1{
-    display: hid;
-      }
+  
 }
 
 @media screen and (max-width: 439px) {
