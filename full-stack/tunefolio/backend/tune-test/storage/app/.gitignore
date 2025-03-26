@@ -1,5 +1,5 @@
 # Ignore all files in the public folder
-
+/public/*
 
 # But don't ignore the public folder itself
 !public/
