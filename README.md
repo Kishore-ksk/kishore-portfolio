@@ -20,8 +20,8 @@ I am a **Full Stack Web Developer** skilled in:
 - Tools: **Git, GitHub, Postman, VS Code**  
 
 ## 📬 Connect with Me  
-- **LinkedIn**: [Your Profile Link]  
-- **Portfolio**: [Your Portfolio Link]  
+- **LinkedIn**: [\[Your Profile Link\]](https://www.linkedin.com/in/ksk2000/)  
+- **behance**: [\[Your Portfolio Link\]](https://www.behance.net/kishoreshanjay)  
 
 ---
 
