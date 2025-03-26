@@ -1,5 +1,5 @@
 *
 !.gitignore
-!/albums/
-!/songs/
-!/images/
+!/albums
+!/songs
+!/images
