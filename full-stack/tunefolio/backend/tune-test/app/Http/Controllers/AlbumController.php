@@ -50,7 +50,7 @@ class AlbumController extends Controller
                 'id' => $album->id,
                 'name' => $album->name,
                 'desc' => $album->desc,
-                'image' => asset('storage/' . $album->image), // Full URL
+                'image' => url('storage/' . $album->image), // Full URL
                 'date' => $album->date,
                 'user_id' => $album->user_id, // ✅ Return user_id for verification
             ]
