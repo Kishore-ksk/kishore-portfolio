@@ -12,9 +12,7 @@
 !public/storage/
 
 # Allow some specific directories, like albums and songs images
-!public/albums/
-!public/songs/
-!public/images/
+
 
 # Don't ignore the .gitignore file itself
 !.gitignore
