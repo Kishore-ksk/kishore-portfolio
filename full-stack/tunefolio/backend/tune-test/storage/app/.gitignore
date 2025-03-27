@@ -3,7 +3,7 @@
 
 # But don't ignore the public folder itself
 !public/
-
+!storage/
 # Don't ignore the important files inside public (e.g., CSS, JS, etc.)
 !public/*.css
 !public/*.js
