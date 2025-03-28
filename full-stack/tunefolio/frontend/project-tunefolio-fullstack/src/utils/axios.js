@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create Axios instance
 const API = axios.create({
-  baseURL: 'https://tunefolio-backend-1.onrender.com', // Laravel backend URL
+  baseURL: 'http://127.0.0.1:8000', // Laravel backend URL
   withCredentials: false, // Allows sending cookies with requests (for Sanctum auth)
   headers: {
     'Content-Type': 'application/json',
