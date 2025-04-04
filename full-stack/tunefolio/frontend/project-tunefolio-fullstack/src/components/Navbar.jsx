@@ -89,6 +89,7 @@ const Navbar = () => {
       console.log("Stored Token:", localStorage.getItem("authToken"));
       const token = localStorage.getItem("authToken");
       const response = await ApiService.deleteUser();
+      console.log("Delete response:", response);
 
 
       if (!response.ok) {
