@@ -88,7 +88,7 @@ const Navbar = () => {
 
       console.log("Stored Token:", localStorage.getItem("authToken"));
       const token = localStorage.getItem("authToken");
-      const response = await fetch("http://127.0.0.1:8000/api/auth/delete", {
+      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/auth/delete`, {
         method: "DELETE",
         headers: {
           "Content-Type": "application/json",
