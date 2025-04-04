@@ -88,13 +88,7 @@ const Navbar = () => {
 
       console.log("Stored Token:", localStorage.getItem("authToken"));
       const token = localStorage.getItem("authToken");
-      const response = await fetch(`${import.meta.env.VITE_API_BASE_URL}/api/auth/delete`, {
-        method: "DELETE",
-        headers: {
-          "Content-Type": "application/json",
-          Authorization: `Bearer ${token}`,
-        },
-      });
+      const response = await ApiService.deleteUser();
 
 
       if (!response.ok) {
