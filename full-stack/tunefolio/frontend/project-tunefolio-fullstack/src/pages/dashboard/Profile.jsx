@@ -33,7 +33,7 @@ function Profile() {
         setSongs(songsResponse.data);
 
         setProfile({
-          image: `http://127.0.0.1:8000/storage/${userResponse.data.image}` || STATIC_PROFILE.image,
+          image: userResponse.data.image || STATIC_PROFILE.image,
           name: userResponse.data.name || STATIC_PROFILE.name,
           totalPlays: STATIC_PROFILE.totalPlays,
           totalLikes: STATIC_PROFILE.totalLikes,

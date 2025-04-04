@@ -40,7 +40,7 @@ const Navbar = () => {
         console.log("Full API Response:", response.data);
 
         console.log("Fetched Image URL:", response.data.image); // ✅ Log fetched image
-        setProfileImage(`http://127.0.0.1:8000/storage/${response.data.image}`);
+        setProfileImage(response.data.image);
       } catch (error) {
         console.error("Failed to fetch profile image:", error);
       }
