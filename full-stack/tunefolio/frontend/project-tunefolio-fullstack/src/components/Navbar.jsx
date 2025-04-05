@@ -84,20 +84,21 @@ const Navbar = () => {
     if (!window.confirm("Are you sure you want to delete your account?")) return;
 
     try {
-      console.log("Sending delete request..."); // ✅ Log before request
+      console.log("Sending delete request...");
 
-      console.log("Stored Token:", localStorage.getItem("authToken"));
       const token = localStorage.getItem("authToken");
+      console.log("Stored Token:", token);
+
       const response = await ApiService.deleteUser();
       console.log("Delete response:", response);
 
-
-      if (!response.ok) {
+      if (response.status !== 200 || response.data?.message !== "Account deleted successfully") {
         throw new Error("Failed to delete account.");
       }
+
       alert("Your account has been deleted.");
-      localStorage.removeItem("authToken"); // Remove token
-      navigate("/register"); // Redirect to signup page
+      localStorage.removeItem("authToken");
+      navigate("/register");
     } catch (error) {
       console.error("Error:", error);
       alert("Something went wrong. Please try again.");
